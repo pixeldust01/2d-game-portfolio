@@ -1,0 +1,32 @@
+https://github.com/JSLegendDev/2d-portfolio-kaboom/tree/master 
+Lines of code that are being explained are indented with TAB
+
+
+1. IMPORTANT
+This used in PowerShell to temporarily allow scripts to run in the current terminal session, even if your system’s execution policy normally blocks them.
+-Scope Process: Applies only to the current PowerShell session (it resets when you close the terminal).
+-ExecutionPolicy Bypass: Ignores script restrictions, allowing all scripts to run.
+Why use it?
+This is often used in development to run scripts (like project setup or build scripts) without changing the system-wide security settings. It’s safer than changing the policy for the whole system.
+
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+2. This is used to display the installed version of npm (Node Package Manager) on your system. This helps you:
+2.1 Check if npm is installed.
+2.2 Verify which version you have, which is useful for troubleshooting or ensuring compatibility with certain projects.
+
+    npm -v
+
+
+3. Terser [ALREADY INSTALLED] is a popular JavaScript minifier used in Node.js projects. It takes your JavaScript code and compresses it by removing unnecessary characters (like whitespace and comments) and shortening variable names, making the code smaller and faster to load in browsers.
+
+Common uses:
+Reducing file size for production builds.
+Obfuscating code to make it harder to read.
+In Vite and other build tools:
+Terser is often used as the default minifier for JavaScript during the build process.
+
+    npm install terser --save-dev
+
+
