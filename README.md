@@ -92,6 +92,7 @@ These changes helped me understand level design, layout planning, and user exper
 - Approach objects to trigger dialogue
 - Click buttons to interact (e.g., open links)
 - Explore different sections to learn more
+- To see the complete walkthrough of the 2D Portfolio, check out the video from this link: https://drive.google.com/file/d/1INbyKvmbTSEy3DnR4OBz7oIBlS0krIQ8/view?usp=drivesdk
 
 ---
 
